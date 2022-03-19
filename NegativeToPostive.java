@@ -7,7 +7,8 @@ public class NegativeToPostive {
 		int number = -40;
 		
 		if(number<0) {
-			System.out.println("The number "+ number +"is converted to 40");
+			int convert = 0-number;
+			System.out.println("The number "+ number +"is converted to " + convert);
 		}
 	}
 
